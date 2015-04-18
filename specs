@@ -1,0 +1,21 @@
+Project Specifications
+
+Problem Description: There are some items that must be manually updated on a website when an IDX customer decides they would like to move from V1 to V2 of the product. As a customer I would like to know what items on my website I or my designer must update manually before moving to V2 of the IDX product.
+
+Solution Description: This script will detect all items on the client website that must be manually updated to function properly with V2 of the product. The script will provide all the information the client or designer will need in order to locate the item to be changed.
+
+Items that Must be Change manually:
+
+1. IDX Widgets
+2. Custom links that include idxco
+3. Custom forms that use IDX data
+
+Customer on V1 to use for development: http://www.terrifehlberg.com/
+
+The application must do the following:
+
+1. Crawl all pages on the site, creating a list of those pages
+2. Look through each page to find items (from above) that must be updated manually
+3. Print to screen the page name and the items found on that page that must be updated
+4. Links to instructions on how to make the appropriate changes
+5. Perhaps a time estimate based on number of items found and time to change each
